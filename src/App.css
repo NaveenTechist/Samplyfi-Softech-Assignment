@@ -38,3 +38,8 @@
   flex-wrap: wrap;
   margin-top: 20px;
 }
+
+.ant-container {
+  padding: 20px;
+  margin-bottom: 150px;
+}

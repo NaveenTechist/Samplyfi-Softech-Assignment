@@ -4,7 +4,6 @@ import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { ImEarth } from "react-icons/im";
 const UserCard = (props) => {
-    console.log(props.each)
     return (
         <div className='user-main-container' >
             <div className='each-user-card'>
