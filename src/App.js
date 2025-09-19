@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Oval } from 'react-loader-spinner'
 import UserCard from './components/UserCard/UserCard';
+import Header from './components/Header/Header'
 import './App.css';
 import 'antd/dist/reset.css';
 import { Row, Col, Card, Modal, Form, Input, Button } from "antd";
@@ -78,7 +79,6 @@ function App() {
           userData.map(each => <UserCard each={each} key={each.id} />)
         }
       </div>
-      {antFunction()}
     </div>
   )
 
@@ -186,8 +186,9 @@ function App() {
 
   return (
     <div className="main-container">
+      <Header />
       {renderFunction()}
-
+      {antFunction()}
     </div>
   );
 }
