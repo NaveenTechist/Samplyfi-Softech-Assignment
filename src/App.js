@@ -78,6 +78,7 @@ function App() {
           userData.map(each => <UserCard each={each} key={each.id} />)
         }
       </div>
+      {antFunction()}
     </div>
   )
 
@@ -186,7 +187,7 @@ function App() {
   return (
     <div className="main-container">
       {renderFunction()}
-      {antFunction()}
+
     </div>
   );
 }

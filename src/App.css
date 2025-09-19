@@ -23,6 +23,7 @@
 
 .success-main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -42,4 +43,6 @@
 .ant-container {
   padding: 20px;
   margin-bottom: 150px;
+  width: 100%;
+  margin-top: 50px;
 }
